@@ -1,0 +1,59 @@
+.header-nav{
+  display: flex;
+  height: 60px;
+  background: #111f2a;
+  width: 100%;
+  color: #ffffff;
+  padding: 0 20px;
+  justify-content: space-between;
+  .header-left{
+    display: flex;
+    align-items: center;
+    .app-logo{
+      font-size: 28px;
+      cursor: pointer;
+      img{
+        width: 40px;
+        height: 40px;
+      }
+      span{
+        margin:0 10px;
+      }
+    }
+    .nav-link{
+      font-size: 16px;
+    }
+  }
+  .header-right{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    img{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+    div{
+      padding: 5px 15px;
+      margin: 0 10px;
+      border: 1px solid #ffffff;
+      border-radius: 4px;
+      font-size: 12px;
+      &:hover{
+        color: #20a0ff;
+        border-color: #20a0ff;
+      }
+    }
+  }
+}
+.header-nav a{
+  padding:0 20px;
+  line-height: 36px;
+  color: #ffffff;
+}
+.header-nav a:link,.header-nav a:visited,.header-nav a:hover,.header-nav a:active{
+  text-decoration: none;
+}
+.header-nav a:hover{
+  color: #20a0ff;
+}
