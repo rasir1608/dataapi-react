@@ -7,9 +7,13 @@ import './index.css'
 class App extends Component {
   render () {
     return (
-      <HeaderNav>
-        {this.props.children}
-      </HeaderNav>
+      <div>
+        <HeaderNav>
+        </HeaderNav>
+        <div>
+          {this.props.children}
+        </div>
+      </div>
     )
   }
 }

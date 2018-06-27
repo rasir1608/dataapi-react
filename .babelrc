@@ -13,11 +13,10 @@
     "transform-decorators-legacy",
     "react-hot-loader/babel",
     ["transform-object-rest-spread", { "useBuiltIns": true }],
-    [
-      "import",
-      {
-        "libraryName": "antd",
-        "style": false
+    ["import", 
+      { "libraryName": "antd", 
+        "libraryDirectory": "es", 
+        "style": "css" 
       }
     ]
   ],

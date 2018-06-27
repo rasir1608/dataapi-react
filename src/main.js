@@ -5,6 +5,8 @@ import { createStore, applyMiddleware } from 'redux'
 import createSagaMiddleware from 'redux-saga'
 import { AppContainer } from 'react-hot-loader'
 
+import 'antd/dist/antd.css';
+import '@/assets/style.scss';
 import rootSaga from '@/saga'
 import reducer from '@/reducers'
 import routers from '@/routers'
