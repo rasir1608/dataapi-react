@@ -1,0 +1,33 @@
+.login{
+  width: 300px;
+  margin: 100px auto 0;
+  .login-title{
+    font-size: $largeFont;
+    line-height: 100px;
+    text-align: center;
+  }
+  .login-main{
+    height: 400px;
+    border: 1px solid $blue;
+    border-radius: $borderRadius;
+    .login-actions{
+      font-size: $normalFont;
+      display: flex;
+      height: 50px;
+      a{
+        transition: all 0.2s linear;
+        width: 50%;
+        line-height: 50px;
+        text-align: center;
+        &:hover{
+          background: $pr;
+          color: $white;
+        }
+      }
+      .action-active{
+        background: $pr;
+        color: $white;
+      }
+    }
+  }
+}
